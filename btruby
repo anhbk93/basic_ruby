@@ -1,0 +1,35 @@
+1. Khởi tạo một mảng bất kỳ trên 10 phần tử, sắp xếp mảng theo thứ tự tăng dần. In tất cả các phần tử ra theo thứ tự giảm dần. Nhập vào một số bất kỳ, in ra xem số đó có thuộc mảng k.
+
+2. cho đoạn code ruby như sau:
+	x=[2,4,5,6,8,12,7,12,15]
+	y=[4,5,2,9,6,14,78,9,2]
+	puts "Nhap toa do diem o:"
+	puts "nhap x:"
+	$xx= gets.chomp.to_i
+	puts "nhap y:"
+	$yy= gets.chomp.to_i
+	i=x.length-1
+	for i in (0..i)
+		r=Math.sqrt(($xx-x[i])*($xx-x[i])+($yy-y[i])*($yy-y[i]))
+		if r<=5
+			puts "[#{x[i]},#{y[i]}]"
+		end
+		puts r
+	end
+
+Hãy viết tên bài tập chính xác cho đoạn code trên.
+
+3. Tạo ra 1 class PhanSo có các thuộc tính là tử số, mẫu số (PhanSo chứa 2 phấn số). Viết các phương thuwwucs hiển thị, cộng, trù, nhân, chia của Class PhanSo. Chương trình nhập tử số 1, mẫu số 1, tử số 2, mẫu số 2 rồi thực hiện các hàm đã viết.
+
+4. viet code tạo 1 file , ghi xuống đó 1 bài nội dung: "Trăng muộn cao nguyên toả lối mòn
+Ấm nồng trời rạng mảnh hồn con
+Đêm như muốn tạc lòng thờ phượng
+Thiên Chúa trao duyên với nước non              " ẩn những
+Hoa sương ước nguyện tấm linh hồn
+Tận hiến tình son mỗi sớm hôm
+Sông nước Cha con trời thánh ước
+Tin yêu thẳng lối đến thiên môn
+sau đó đọc lên và ẩn những chữ : [ on, am ]
+vd: ** n**g trời rạng mảnh h** c**
+đó mấy a chị ai có time làm thử
+
